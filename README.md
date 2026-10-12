@@ -9,11 +9,9 @@ networks:
   homarr:
     name: homarr
     driver: bridge
-    enable_ipv6: true
     ipam:
       config:
         - subnet: 172.31.0.0/24
-        - subnet: fd42:7a31:9b20:2::/64
 ```
 Note: Remember to add this somewhere in your Homarr's compose:
 ```
