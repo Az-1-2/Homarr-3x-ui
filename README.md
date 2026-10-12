@@ -23,4 +23,4 @@ networks:
 3. Fill in the Env variables for you 3x-ui token and url. To get an api token in 3x-ui, go to your panel, panel settings, authentication, and api token. Once there, click to create a new token with the name "Homarr-3x-ui" and copy the generated token and put it into the associated environment variable
 4. Once done, go to your homarr dashboard and to the custom api widgets section, then find Homarr-3x-ui in the workshop and install it. You do not need to add credentials, as it is set to access Homarr-3x-ui internally through the shared docker network.
 
-If you have any questions. feel free to open an issue :)
+If you have any questions, feel free to open an issue :)
