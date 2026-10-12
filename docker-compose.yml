@@ -13,10 +13,7 @@ services:
       - "3000"
     networks:
       - homarr
-    command: >
-      sh -c "pip install --no-cache-dir flask psutil requests &&
-      python /app.py"
-
+    
 networks:
   homarr:
     external: true
