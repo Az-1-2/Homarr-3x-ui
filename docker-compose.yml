@@ -7,8 +7,6 @@ services:
       3XUI_URL: "CHANGE ME!"
       3XUI_TOKEN: "CHANGE ME!"
       PORT: "3000"
-    volumes:
-      - ./app.py:/app.py:ro
     expose:
       - "3000"
     networks:
