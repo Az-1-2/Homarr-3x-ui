@@ -1,0 +1,22 @@
+services:
+  homarr-3x-ui:
+    image: ghcr.io/az-1-2/homarr-3x-ui:latest
+    container_name: homarr-3x-ui
+    restart: unless-stopped
+    environment:
+      3XUI_URL: "CHANGE ME!"
+      3XUI_TOKEN: "CHANGE ME!"
+      PORT: "3000"
+    volumes:
+      - ./app.py:/app.py:ro
+    expose:
+      - "3000"
+    networks:
+      - homarr
+    command: >
+      sh -c "pip install --no-cache-dir flask psutil requests &&
+      python /app.py"
+
+networks:
+  homarr:
+    external: true
