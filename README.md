@@ -2,7 +2,7 @@
 A widget that shows system stats, number of clients, inbounds, online, and enabled, total download and upload, and lists all clients in a neat little widget in your Homarr dashboard. This is a small Docker container that collects the necessary data from 3x-ui via the api and provides it to Homarr in a way it can interpret, as Homarr is currently unable to do it directly. 
 
 # Install Steps
-1. Copy the (Compose)[https://github.com/Az-1-2/Homarr-3x-ui/blob/main/docker-compose.yml] file into a file into a new directory
+1. Copy the [Compose](https://github.com/Az-1-2/Homarr-3x-ui/blob/main/docker-compose.yml) file into a file into a new directory
 2. If you don't already, explicitly define a network for Homarr named "homarr" in its compose file, as Homarr-3x-ui must be on the same Docker network as your Homarr deployment in order to pass information to it. Here is an example.
 ```
 networks:
