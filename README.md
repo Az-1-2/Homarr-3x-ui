@@ -1,3 +1,6 @@
+# Update:
+This repo is now archived as I successfully made my homarr widget get data directly, making this container useless.
+
 # Homarr-3x-ui
 A widget that shows system stats, number of clients, inbounds, online, and enabled, total download and upload, and lists all clients in a neat little widget in your Homarr dashboard. This is a small Docker container that collects the necessary data from 3x-ui via the api and provides it to Homarr in a way it can interpret, as Homarr is currently unable to do it directly. The associated widget is available in the Homarr workshop [here](https://homarr.dev/workshop/9xoj661za4zdgcp)
 
